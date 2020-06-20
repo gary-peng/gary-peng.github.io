@@ -1,0 +1,58 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+html, body {
+  height: 100%;
+  background-color: black;
+  color: white;
+  font-family: "Space Mono",monospace,"HelveticaNeue",Helvetica,Arial,sans-serif;
+}
+
+.sidenav {
+  position: fixed;
+  /* width: auto; */
+  /* z-index: 1; */
+  background-color: transparent;
+  /* overflow-x: hidden; */
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#logo {
+
+}
+
+.sidenav a {
+  writing-mode: vertical-rl;
+  color: white;
+}
+
+nav {
+  background-color: black;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-toggler {
+  width: 47px;
+  height: 34px;
+  background-color: transparent;
+  outline: 0 !important;
+}
+
+
+.navbar-toggler .line {
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+#name {
+  font-size: 100px;
+}
