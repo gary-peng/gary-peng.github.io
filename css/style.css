@@ -18,6 +18,8 @@ html, body {
   /* overflow-x: hidden; */
   padding-top: 2%;
   padding-bottom: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 #logo {
