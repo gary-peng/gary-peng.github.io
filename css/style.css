@@ -1,6 +1,6 @@
 html, body {
     height: 100%;
-    background-color: black;
+    background-color: #282a36;
     color: white;
     font-family: "Space Mono",monospace,"HelveticaNeue",Helvetica,Arial,sans-serif;
 }
@@ -27,7 +27,7 @@ html, body {
 }
 
 nav {
-    background-color: black;
+    background-color: #282a36;
 }
 
 .nav-link {
@@ -50,6 +50,24 @@ nav {
     margin-bottom: 5px;
 }
 
-#name {
-    font-size: 100px;
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: white;
 }
+
+.p1 {
+    font-size: 1vw;
+}
+
+.p3 {
+    font-size: 3vw;
+}
+
+.p5 {
+    font-size: 5vw;
+}
+
+.p7 {
+    font-size: 7vw;
+}
+
