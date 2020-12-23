@@ -17,30 +17,30 @@ function whileHover(element) {
     var interval = null;
     var curText = element.innerHTML;
 
-    element.addEventListener("mouseover", function() {
+    element.addEventListener("mouseover", function () {
         interval = setInterval(function () {
             shuffle(element);
         }, shuffSpeed);
     });
 
-    element.addEventListener("mouseout", function() {
+    element.addEventListener("mouseout", function () {
         clearInterval(interval);
         element.innerHTML = curText;
     });
 }
 
-window.addEventListener("load", function() {
+window.addEventListener("load", function () {
     console.log("page loaded");
     for (let i = 0; i < eleList.length; i++) {
         let ele = document.getElementsByClassName("glitch")[i];
         let interval = null;
         let curText = ele.innerHTML;
         
-        interval = setInterval(function() {
+        interval = setInterval(function () {
             shuffle(ele);
         }, shuffSpeed);
 
-        setTimeout(function() {
+        setTimeout(function () {
             clearInterval(interval);
             ele.innerHTML = curText;
         }, loadShuff);
