@@ -1,13 +1,13 @@
 const shuffSpeed = 25;
 const loadShuff = 1000;
-const charList = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
-var eleList = document.getElementsByClassName("glitch");
+const charList = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';
+const eleList = document.getElementsByClassName('glitch');
 
 function shuffle(element) {
-    var textLength = element.innerHTML.length;
-    var ranText = "";
+    const textLength = element.innerHTML.length;
+    var ranText = '';
     for (let i = 0; i < textLength; i++) {
-        let ranChar = charList.charAt(Math.floor(Math.random() * 36));
+        const ranChar = charList.charAt(Math.floor(Math.random() * 36));
         ranText += ranChar;
     }
     element.innerHTML = ranText;
@@ -15,32 +15,31 @@ function shuffle(element) {
 
 function whileHover(element) {
     var interval = null;
-    var curText = element.innerHTML;
+    const curText = element.innerHTML;
 
-    element.addEventListener("mouseover", function () {
-        interval = setInterval(function () {
+    element.addEventListener('mouseover', () => {
+        interval = setInterval(() => {
             shuffle(element);
         }, shuffSpeed);
     });
 
-    element.addEventListener("mouseout", function () {
+    element.addEventListener('mouseout', () => {
         clearInterval(interval);
         element.innerHTML = curText;
     });
 }
 
-window.addEventListener("load", function () {
-    console.log("page loaded");
+window.addEventListener('load', () => {
+    console.log('page loaded');
     for (let i = 0; i < eleList.length; i++) {
-        let ele = document.getElementsByClassName("glitch")[i];
-        let interval = null;
-        let curText = ele.innerHTML;
+        const ele = document.getElementsByClassName('glitch')[i];
+        const curText = ele.innerHTML;
         
-        interval = setInterval(function () {
+        const interval = setInterval(() => {
             shuffle(ele);
         }, shuffSpeed);
 
-        setTimeout(function () {
+        setTimeout(() => {
             clearInterval(interval);
             ele.innerHTML = curText;
         }, loadShuff);
