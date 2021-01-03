@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     background-color: #282a36;
     color: white;
-    font-family: "Andale Mono",monospace;
+    font-family: "IBM Plex Mono", monospace;
     scroll-behavior: smooth;
 }
 
