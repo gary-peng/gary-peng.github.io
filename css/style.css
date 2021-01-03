@@ -3,6 +3,7 @@ html, body {
     background-color: #282a36;
     color: white;
     font-family: "Space Mono",monospace,"HelveticaNeue",Helvetica,Arial,sans-serif;
+    scroll-behavior: smooth;
 }
 
 .bold {
@@ -69,20 +70,3 @@ html, body {
     background-color:#282a36;
     text-decoration: none;
 }
-
-.p1 {
-    font-size: 1vw;
-}
-
-.p3 {
-    font-size: 3vw;
-}
-
-.p5 {
-    font-size: 5vw;
-}
-
-.p7 {
-    font-size: 7vw;
-}
-
