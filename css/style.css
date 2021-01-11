@@ -57,7 +57,7 @@ html, body {
 
 .navbar-nav .nav-item .nav-link,
 .navbar-nav .nav-item:hover .nav-link,
-.navbar-nav .nav-item .active .nav-link {
+.navbar-nav .nav-item.active .nav-link {
     color: #bd93f9;
 }
 
