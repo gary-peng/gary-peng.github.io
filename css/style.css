@@ -6,10 +6,6 @@ html, body {
     scroll-behavior: smooth;
 }
 
-.bold {
-    font-weight: bold;
-}
-
 .grey {
     color: #9E9E9E;
 }
@@ -18,9 +14,19 @@ html, body {
     color: #bd93f9;
 }
 
-.white {
+.white,
+.white:hover {
     color: white;
 }
+
+.bg-darkgrey {
+    background-color: #44475a;
+}
+
+.bg-purple {
+    background-color: #bd93f9;
+}
+
 
 .sidenav {
     position: fixed;
