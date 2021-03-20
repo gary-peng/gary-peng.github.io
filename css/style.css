@@ -14,8 +14,7 @@ html, body {
     color: #bd93f9;
 }
 
-.white,
-.white:hover {
+.white {
     color: white;
 }
 
@@ -75,4 +74,33 @@ html, body {
 .list-group-item.active {
     background-color:#282a36;
     text-decoration: none;
+}
+
+.card-deck .card {
+    background-color: #44475a;
+    margin: 1%;
+}
+
+.card .card-img-top {
+    border-radius: 20px;
+    padding: 3%;
+}
+
+.card h5 {
+    color: white;
+    font-weight: bold;
+}
+
+.card small {
+    color: #bd93f9; 
+}
+
+.card p {
+    margin-top: 2%;
+    color: #9E9E9E;
+}
+
+.card .badge-pill {
+    background-color: #bd93f9;
+    color: white;
 }
