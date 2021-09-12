@@ -1,7 +1,17 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "gary-peng.github.io",
+    siteUrl: "https://www.garypeng.com",
+    title: "Gary Peng",
   },
-  plugins: [],
+  plugins: [
+    {
+        resolve: `gatsby-plugin-manifest`,
+        options: {
+          name: "Gary Peng",
+          short_name: "Gary Peng",
+          icon: "src/assets/logo.png",
+        },
+    },
+    `gatsby-plugin-react-helmet`
+  ],
 };

@@ -33,20 +33,6 @@ export default {
             ],
         },
         {
-            name: "Face Mask Detection",
-            lang: "Python",
-            tech: "OpenCV, Clarifai",
-            desc: "Detect anti-maskers and people who wear masks below the nose.",
-            img: "",
-
-            links: [
-                {
-                    name: "Github",
-                    url: "https://github.com/gary-peng/face-mask-detection",
-                },
-            ],
-        },
-        {
             name: "Grocery Grab",
             lang: "Java",
             tech: "Android Studio, ARCore, NCR APIs",
@@ -61,6 +47,20 @@ export default {
                 {
                     name: "Github",
                     url: "https://github.com/smithbois/grocery-grab",
+                },
+            ],
+        },
+        {
+            name: "Face Mask Detection",
+            lang: "Python",
+            tech: "OpenCV, Clarifai",
+            desc: "Detect anti-maskers and people who wear masks below the nose.",
+            img: "https://github.com/gary-peng/face-mask-detection/raw/main/screenshot.PNG",
+
+            links: [
+                {
+                    name: "Github",
+                    url: "https://github.com/gary-peng/face-mask-detection",
                 },
             ],
         },
@@ -117,7 +117,7 @@ export default {
         {
             name: "AC Daddy",
             lang: "Java, C++",
-            tech: "Firebase, Android Studio, Particle API, 3D Printing, Microcontroller",
+            tech: "Android Studio, Particle API, Firebase, 3D Printing, Microcontroller",
             desc: "Achieve thermostatic control, remote control, and temperature scheduling with dormitory air conditioners.",
             img: "https://github.com/smithbois/ac-daddy/raw/master/screenshot.PNG",
 
