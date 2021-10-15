@@ -4,13 +4,41 @@ export default {
             name: "oncoIQ",
             lang: "Python, JavaScript",
             tech: "React, Flask, SQL, Redis, FastAI, PyTorch, Docker",
-            desc: "Using AI image recognition to help pathologists make diagnoses.",
+            desc: "A platform that leverages machine learning and crowdsourcing to help pathologists make diagnoses.",
             img: "https://oncoiq.io/screenshots/landing.PNG",
 
             links: [
                 {
                     name: "Web App",
                     url: "https://oncoiq.io",
+                },
+            ],
+        },
+        {
+            name: "Chore Bot",
+            lang: "JavaScript",
+            tech: "Node.js, Express, GroupMe API",
+            desc: "A chatbot that automatically assigns chores to roommates and sends reminders.",
+            img: "https://github.com/gary-peng/chore-bot/raw/main/cover.png",
+
+            links: [
+                {
+                    name: "Github",
+                    url: "https://github.com/gary-peng/chore-bot",
+                },
+            ],
+        },
+        {
+            name: "NFT Highlights",
+            lang: "JavaScript",
+            tech: "React, Stellar blockchain",
+            desc: "Developed a Chrome extension that allows content creators to sell NFTs of livestream clips and viewers to buy them.",
+            img: "https://github.com/smithbois/NFT-Highlights/raw/master/images/cover.PNG",
+
+            links: [
+                {
+                    name: "Github",
+                    url: "https://github.com/smithbois/NFT-Highlights/tree/master/chrome-extension",
                 },
             ],
         },
