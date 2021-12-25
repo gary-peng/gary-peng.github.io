@@ -32,13 +32,13 @@ export default {
             name: "NFT Highlights",
             lang: "JavaScript",
             tech: "React, Stellar blockchain",
-            desc: "Developed a Chrome extension that allows content creators to sell NFTs of livestream clips and viewers to buy them.",
+            desc: "A mobile app and browser extension for viewers to easily mint and trade NFTs of Twitch clips from their favorite live-streamers.",
             img: "https://github.com/smithbois/NFT-Highlights/raw/master/images/cover.PNG",
 
             links: [
                 {
                     name: "Github",
-                    url: "https://github.com/smithbois/NFT-Highlights/tree/master/chrome-extension",
+                    url: "https://github.com/smithbois/NFT-Highlights",
                 },
             ],
         },
@@ -64,7 +64,7 @@ export default {
             name: "Grocery Grab",
             lang: "Java",
             tech: "Android Studio, ARCore, NCR APIs",
-            desc: "Reimagining retail shopping with pathfinding, mobile checkout, and Augmented Reality in the COVID era. A mobile app that minimizes interpersonal contact and time in store, ensuring more safe customers.",
+            desc: "A mobile app that ensures safe shopping during the pandemic by minimizing interpersonal contact and time in store with pathfinding, mobile checkout, and Augmented Reality.",
             img: "https://github.com/smithbois/grocery-grab/raw/master/logo.png",
 
             links: [
@@ -146,7 +146,7 @@ export default {
             name: "AC Daddy",
             lang: "Java, C++",
             tech: "Android Studio, Particle API, Firebase, 3D Printing, Microcontroller",
-            desc: "Achieve thermostatic control, remote control, and temperature scheduling with dormitory air conditioners.",
+            desc: "A mobile app and IoT device for remote thermostat control and temperature scheduling of dormitory air conditioners.",
             img: "https://github.com/smithbois/ac-daddy/raw/master/screenshot.PNG",
 
             links: [
@@ -163,7 +163,7 @@ export default {
         {
             name: "Hand Gesture Smart Light Control",
             lang: "C++",
-            tech: "LIFX API, LAN Protocol (UDP), 3D Printing, Microcontroller",
+            tech: "LIFX API, UDP, 3D Printing, Microcontroller",
             desc: "Controlling smart light and other internet-connected devices with hand gesture recognition.",
             img: "https://cdn.hackaday.io/images/7807321564958932763.jpg",
 
