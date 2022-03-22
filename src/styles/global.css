@@ -78,7 +78,7 @@ html, body {
 
 .card h5 {
     color: black;
-    font-weight: bold;
+    font-family: SpaceMono-Bold, monospace;
     text-decoration: underline;
 }
 
@@ -89,7 +89,7 @@ html, body {
 
 .card small {
     color: black;
-    font-weight: bold;
+    font-family: SpaceMono-Bold, monospace;
 }
 
 .card p {
