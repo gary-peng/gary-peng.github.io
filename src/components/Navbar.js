@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logo from "../assets/logo-white.png";
+import logo from "../assets/logo.png";
 import resume from "../assets/Gary_Peng_Resume.pdf";
 import NavLink from './NavLink';
 

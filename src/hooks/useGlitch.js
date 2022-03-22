@@ -1,17 +1,20 @@
 import React, { useRef, useState, useEffect } from 'react';
 
-export default function useGlitch(text) {
+export default function useGlitch(text, color) {
     const [value, setValue] = useState(text);
     const [active, setActive] = useState(false);
 
     const ref = useRef(null);
     const charList = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';
+    const colorList = ["#FF6663", "#FEB144", "#9EE09E", "#9EC1CF", "#CC99C9"];
+    const ranColor = colorList[Math.floor(Math.random() * colorList.length)]
     const shuffSpeed = 25;
 
     const handleMouseOver = () => setActive(true);
     const handleMouseOut = () => {
         setActive(false);
         setValue(text);
+        ref.current.style.color = color;
     }
 
     useEffect(() => {
@@ -38,6 +41,7 @@ export default function useGlitch(text) {
                 }
 
                 setValue(ranText);
+                ref.current.style.color = ranColor;
             }, shuffSpeed)
         }
 
@@ -50,6 +54,7 @@ export default function useGlitch(text) {
         setTimeout(() => {
             setActive(false);
             setValue(text);
+            ref.current.style.color = color;
         }, 1000) 
     }, []);
 

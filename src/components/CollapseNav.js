@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Collapse from 'react-bootstrap/Collapse';
 
-import logo from "../assets/logo-white.png";
+import logo from "../assets/logo.png";
 import resume from "../assets/Gary_Peng_Resume.pdf";
 import NavLink from './NavLink';
 
