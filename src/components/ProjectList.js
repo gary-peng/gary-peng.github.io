@@ -6,7 +6,7 @@ import data from '../data';
 export default function ProjectList() {
     return (
         <div class="container" id="projects">
-            <h3 class="outline bold mb-3">Projects</h3>
+            <h3 class="mb-3">Projects</h3>
             {
                 data.projects.map((el) => {
                     return <ProjectCard project={el} />

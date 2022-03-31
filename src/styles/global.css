@@ -27,21 +27,26 @@ html, body {
     color: white;
 }
 
+.gray {
+    color: #eeeeee;
+}
+
+.bg-black {
+    background-color: black;
+}
+
 .sidenav {
     position: fixed;
     /* width: auto; */
     /* z-index: 1; */
-    background-color: transparent;
+    background-color: black;
     /* overflow-x: hidden; */
+    /* border-right: 2px solid black; */
 }
 
 .sidenav a {
     writing-mode: vertical-rl;
-    color: black;
-}
-
-.sidenav {
-    border-right: 2px solid black;
+    color: white;
 }
 
 .navbar-toggler {
@@ -56,23 +61,19 @@ html, body {
     width: 100%;
     float: left;
     height: 2px;
-    background-color: black;
+    background-color: white;
     margin-bottom: 5px;
 }
 
 .nav-link,
 .nav-link:hover,
 .nav-link.active {
-    color: black;
+    color: white;
 }
 
 .card {
     background-color: white;
-    border: 2px solid black;
-}
-
-.card .card-img-top {
-    border-radius: 25px;
+    border: 1px solid black;
     padding: 15px;
 }
 
@@ -98,5 +99,6 @@ html, body {
 
 .badge-pill,
 .badge-pill:hover {
-    border: 1px solid black;
+    background-color: black;
+    color: white;
 }

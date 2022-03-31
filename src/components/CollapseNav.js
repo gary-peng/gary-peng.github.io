@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Collapse from 'react-bootstrap/Collapse';
 
-import logo from "../assets/logo.png";
+import logo from "../assets/logo-white.png";
 import resume from "../assets/Gary_Peng_Resume.pdf";
 import NavLink from './NavLink';
 
@@ -9,9 +9,9 @@ export default function CollapseNav() {
     const [open, setOpen] = useState(false);
 
     return (
-        <div class="d-block d-md-none">
-            <div class="container d-flex justify-content-between pt-3">
-                <img class="" src={logo} width="30" height="auto" loading="lazy" />
+        <div class="bg-black d-block d-md-none">
+            <div class="container d-flex justify-content-between align-items-center py-3">
+                <img class="" src={logo} width="25" height="auto" loading="lazy" />
                 <button class="navbar-toggler" type="button" onClick={() => setOpen(!open)}>
                     <span class="line"></span>
                     <span class="line"></span>

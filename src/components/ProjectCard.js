@@ -4,7 +4,7 @@ import BadgeBtn from './BadgeBtn'
 
 export default function ProjectCard(props) {
     return (
-        <div class="card mb-2">
+        <div class="card mb-3">
             <div class="row no-gutters">
                 <div class="col-md-4 my-auto">
                     <img class="card-img-top" src={props.project.img} />
