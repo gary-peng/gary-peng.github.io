@@ -83,20 +83,6 @@ export default {
             ],
         },
         {
-            name: "Face Mask Detection",
-            lang: "Python",
-            tech: "OpenCV, Clarifai",
-            desc: "Detect anti-maskers and people who wear masks below the nose.",
-            img: "https://github.com/gary-peng/face-mask-detection/raw/main/screenshot.PNG",
-
-            links: [
-                {
-                    name: "Github",
-                    url: "https://github.com/gary-peng/face-mask-detection",
-                },
-            ],
-        },
-        {
             name: "Bubbl",
             lang: "Java",
             tech: "Android Studio",
