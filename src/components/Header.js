@@ -10,9 +10,9 @@ export default function Header() {
     return (
         <div class="container h-100 d-flex justify-content-center align-items-center">
             <div class="">
-                    <h1 class="" ref={glitchRef1}>{glitchVal1}</h1>
-                    <h1 class="display-1" ref={glitchRef2}>{glitchVal2}</h1>
-                    <h4 class="" ref={glitchRef3}>{glitchVal3}</h4>
+                    <h1 class="text-bold" ref={glitchRef1}>{glitchVal1}</h1>
+                    <h1 class="display-1 text-bold outline" ref={glitchRef2}>{glitchVal2}</h1>
+                    <h5 class="" ref={glitchRef3}>{glitchVal3}</h5>
             </div>
         </div>
     )

@@ -17,22 +17,10 @@ html, body, #___gatsby, #gatsby-focus-wrapper, #index, div[role="group"][tabinde
 }
 
 html, body {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     font-family: SpaceMono-Regular, monospace;
     scroll-behavior: smooth;
-}
-
-.white {
-    color: white;
-}
-
-.gray {
-    color: #eeeeee;
-}
-
-.bg-black {
-    background-color: black;
 }
 
 .sidenav {
@@ -41,7 +29,7 @@ html, body {
     /* z-index: 1; */
     background-color: black;
     /* overflow-x: hidden; */
-    /* border-right: 2px solid black; */
+    border-right: 1px solid white;
 }
 
 .sidenav a {
@@ -65,6 +53,10 @@ html, body {
     margin-bottom: 5px;
 }
 
+.nav-link {
+    padding: 0;
+}
+
 .nav-link,
 .nav-link:hover,
 .nav-link.active {
@@ -72,33 +64,22 @@ html, body {
 }
 
 .card {
-    background-color: white;
-    border: 1px solid black;
+    background-color: transparent;
+    border: 1px solid white;
     padding: 15px;
 }
 
 .card h5 {
-    color: black;
-    font-family: SpaceMono-Bold, monospace;
     text-decoration: underline;
 }
 
 .outline {
-    -webkit-text-stroke: 1px black;
-    color: white;
-}
-
-.card small {
-    color: black;
-    font-family: SpaceMono-Bold, monospace;
-}
-
-.card p {
-    color: black;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
 }
 
 .badge-pill,
 .badge-pill:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }

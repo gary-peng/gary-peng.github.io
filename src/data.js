@@ -5,7 +5,7 @@ export default {
             lang: "Python, JavaScript",
             tech: "React, Flask, SQL, Redis, FastAI, PyTorch, Docker",
             desc: "An online platform that leverages machine learning and crowdsourcing to help pathologists make diagnoses.",
-            img: "https://raw.githubusercontent.com/oncoiq/oncoIQ/ad6e33303c7c203af6cff42e9cdededb7da6c9d9/public/logo.svg",
+            img: "https://raw.githubusercontent.com/oncoiq/oncoIQ/master/src/components/logo-white.svg",
 
             links: [
                 {
