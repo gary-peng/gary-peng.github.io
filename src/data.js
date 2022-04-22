@@ -47,7 +47,7 @@ export default {
             ],
         },
         {
-            name: "Gerogia Tech Meal Planner",
+            name: "Georgia Tech Meal Planner",
             lang: "JavaScript",
             tech: "React, Node.js, Express",
             desc: "An app that helps Georgia Tech students make weekly dining hall meal plans based on fitness goals and dietary restrictions.",
