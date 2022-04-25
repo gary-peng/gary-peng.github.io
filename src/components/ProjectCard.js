@@ -1,29 +1,25 @@
-import React from 'react'
+import React from 'react';
+import { Heading, Text, Flex, Box, Image } from '@chakra-ui/react';
 
 import BadgeBtn from './BadgeBtn'
 
 export default function ProjectCard(props) {
     return (
-        <div class="card mb-3">
-            <div class="row no-gutters">
-                <div class="col-md-4 my-auto">
-                    <img class="card-img-top" src={props.project.img} />
-                </div>
+        <Flex flexDirection="column" width={{ base: "80vw", md: "20vw" }} height="50vh" border="1px solid white" borderRadius="7px" m="10px" p="15px" overflowY="auto">
+            <Flex height="30%" justifyContent="center" mb="20px"> 
+                <Image height="100%" objectFit="contain" border="1px solid white" borderRadius="7px" src={props.project.img} />
+            </Flex>
+            <Heading fontWeight="normal" textDecoration="underline" size="md">{props.project.name}</Heading>
+            <Text fontSize='xs'>{props.project.lang}, {props.project.tech}</Text>
+            <Text>{props.project.desc}</Text>
 
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">{props.project.name}</h5>
-                        <p class="card-text"><small>{props.project.lang} | {props.project.tech}</small></p>
-                        <p class="card-text">{props.project.desc}</p>
-
-                        {
-                            props.project.links.map((el) => {
-                                return <BadgeBtn href={el.url} text={el.name} />
-                            })
-                        }
-                    </div>
-                </div>
-            </div>
-        </div>
+            <Box>
+                {
+                    props.project.links.map((el) => {
+                        return <BadgeBtn href={el.url} text={el.name} url />
+                    })
+                }
+            </Box>
+        </Flex>
     )
 }

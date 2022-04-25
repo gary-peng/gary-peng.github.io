@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import Collapse from 'react-bootstrap/Collapse';
+import { Collapse, Button, Box, Flex } from '@chakra-ui/react';
+import { HamburgerIcon } from '@chakra-ui/icons';
 
 import logo from "../assets/logo-white.png";
 import resume from "../assets/Gary_Peng_Resume.pdf";
@@ -9,24 +10,28 @@ export default function CollapseNav() {
     const [open, setOpen] = useState(false);
 
     return (
-        <div class="bg-black d-block d-md-none">
-            <div class="container d-flex justify-content-between align-items-center py-3">
+        <Box display={{ base: "block", md: "none" }} p="20px">
+            <Flex justifyContent="space-between" alignItems="center">
                 <img class="" src={logo} width="25" height="auto" loading="lazy" />
-                <button class="navbar-toggler" type="button" onClick={() => setOpen(!open)}>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                </button>
-            </div>
-            <Collapse className="container mt-2" in={open}>
-                <div >
+                <Button 
+                    color="white"
+                    onClick={() => setOpen(!open)}
+                    bg="transparent"
+                    border="1px solid white"
+                    borderRadius="7px"
+                    _hover={{}}
+                    _focus={{ outline: "none" }}
+                    _active={{}}><HamburgerIcon w="25px" h="auto" /></Button>
+            </Flex>
+            <Collapse in={open}>
+                <Flex flexDirection="column" alignItems="end" mt="10px">
                     <NavLink href="/#projects" text="Projects" />
                     <NavLink href={resume} text="Resume" url />
                     <NavLink href="https://github.com/gary-peng" text="Github" url />
                     <NavLink href="https://www.linkedin.com/in/garyhpeng" text="Linkedin" url />
                     <NavLink href="mailto:gpeng8@gatech.edu" text="Email" />
-                </div>
+                </Flex>
             </Collapse>
-        </div>
+        </Box>
     )
 }

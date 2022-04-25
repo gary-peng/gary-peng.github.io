@@ -1,15 +1,19 @@
-import React from 'react'
+import React from 'react';
+import { Link } from '@chakra-ui/react';
 
 import useGlitch from '../hooks/useGlitch';
 
 export default function NavLink(props) {
     const [glitchRef, glitchVal] = useGlitch(props.text);
+    const handleVert = () => {
+        if (props.vert) {
+            return { writingMode: "vertical-rl" };
+        }
 
-    if (props.url) {
-        return <a class="nav-link" href={props.href} target="_blank" rel="noopener noreferrer" ref={glitchRef}>{glitchVal}</a>
+        return {}; 
     }
 
     return (
-        <a class="nav-link" href={props.href} ref={glitchRef}>{glitchVal}</a>
+        <Link p={0} sx={handleVert()} _hover={{ textDecoration: 'none', color: "white" }} _focus={{}} _active={{}} isExternal={props.url} href={props.href} ref={glitchRef}>{glitchVal}</Link>
     )
 }

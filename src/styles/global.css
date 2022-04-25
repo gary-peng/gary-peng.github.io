@@ -8,78 +8,9 @@
 	src: url("./fonts/Space_Mono/SpaceMono-Bold.ttf")
 }
 
-.bold {
-    font-family: SpaceMono-Bold, monospace;
-}
-
 html, body, #___gatsby, #gatsby-focus-wrapper, #index, div[role="group"][tabindex] {
-    height: 100%;
-}
-
-html, body {
     background-color: black;
     color: white;
     font-family: SpaceMono-Regular, monospace;
     scroll-behavior: smooth;
-}
-
-.sidenav {
-    position: fixed;
-    /* width: auto; */
-    /* z-index: 1; */
-    background-color: black;
-    /* overflow-x: hidden; */
-    border-right: 1px solid white;
-}
-
-.sidenav a {
-    writing-mode: vertical-rl;
-    color: white;
-}
-
-.navbar-toggler {
-    width: 47px;
-    height: 34px;
-    background-color: transparent;
-    outline: 0 !important;
-}
-
-
-.navbar-toggler .line {
-    width: 100%;
-    float: left;
-    height: 2px;
-    background-color: white;
-    margin-bottom: 5px;
-}
-
-.nav-link {
-    padding: 0;
-}
-
-.nav-link,
-.nav-link:hover,
-.nav-link.active {
-    color: white;
-}
-
-.card {
-    background-color: transparent;
-    border: 1px solid white;
-    padding: 15px;
-}
-
-.card h5 {
-    text-decoration: underline;
-}
-
-.outline {
-    -webkit-text-stroke: 1px white;
-    color: transparent;
-}
-
-.badge-pill,
-.badge-pill:hover {
-    background-color: white;
-    color: black;
 }

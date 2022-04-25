@@ -3,12 +3,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/global.css";
 
 import { Helmet } from "react-helmet"
+import { ChakraProvider } from "@chakra-ui/provider";
 
 import Navbar from "../components/Navbar";
 import CollapseNav from "../components/CollapseNav";
 import Header from "../components/Header";
 import ProjectList from "../components/ProjectList";
 import Footer from "../components/Footer";
+
+import Fonts from "../styles/fonts";
+import theme from "../styles/theme";
 
 const IndexPage = () => {
   return (
@@ -17,11 +21,13 @@ const IndexPage = () => {
                 <title>Gary Peng</title>
             </Helmet>
 
-            <Navbar />
-            <CollapseNav />
-            <Header />
-            <ProjectList />
-            <Footer />
+            <ChakraProvider theme={theme}>
+                <Navbar />
+                <CollapseNav />
+                <Header />
+                <ProjectList />
+                <Footer />
+            </ChakraProvider>
         </div>
   )
 }
