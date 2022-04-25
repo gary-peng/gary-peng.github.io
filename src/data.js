@@ -4,7 +4,7 @@ export default {
             name: "oncoIQ",
             lang: "Python, JavaScript",
             tech: "React, Flask, SQL, Redis, FastAI, PyTorch, Docker",
-            desc: "An online platform that leverages machine learning and crowdsourcing to help pathologists make diagnoses.",
+            desc: "An online platform that leverages machine learning and social networking to help pathologists make diagnoses.",
             img: "https://raw.githubusercontent.com/oncoiq/oncoIQ/master/src/components/logo-white.svg",
 
             links: [
@@ -15,6 +15,24 @@ export default {
                 {
                     name: "Github",
                     url: "https://github.com/oncoiq",
+                },
+            ],
+        },
+        {
+            name: "Ethernote",
+            lang: "Solidity, JavaScript",
+            tech: "React, Ethereum Blockchain, IPFS, Metamask",
+            desc: "A decentralized note-taking app built on the Ethereum blockchain.",
+            img: "https://github.com/gary-peng/ethernote/raw/main/public/screenshot.PNG",
+
+            links: [
+                {
+                    name: "Web App",
+                    url: "https://garypeng.com/ethernote/",
+                },
+                {
+                    name: "Github",
+                    url: "https://github.com/gary-peng/ethernote",
                 },
             ],
         },

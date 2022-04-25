@@ -10,9 +10,9 @@ export default function Header() {
     return (
         <Flex h="100vh" justifyContent="center" alignItems="center">
             <Box>
-                    <Heading fontWeight="normal" fontSize={{ base: "28px", md: "40px" }} ref={glitchRef1}>{glitchVal1}</Heading>
-                    <Heading fontWeight="normal" fontSize={{ base: "70px", md: "100px" }} textShadow="-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white" color="black" ref={glitchRef2}>{glitchVal2}</Heading>
-                    <Heading fontWeight="normal" fontSize={{ base: "13px", md: "20px" }} ref={glitchRef3}>{glitchVal3}</Heading>
+                    <Heading fontWeight="normal" fontSize={{ base: "20px", md: "40px" }} ref={glitchRef1}>{glitchVal1}</Heading>
+                    <Heading fontWeight="normal" fontSize={{ base: "50px", md: "100px" }} textShadow="-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white" color="black" ref={glitchRef2}>{glitchVal2}</Heading>
+                    <Heading fontWeight="normal" fontSize={{ base: "10px", md: "20px" }} ref={glitchRef3}>{glitchVal3}</Heading>
             </Box>
         </Flex>
     )

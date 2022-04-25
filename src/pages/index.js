@@ -1,5 +1,4 @@
 import * as React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/global.css";
 
 import { Helmet } from "react-helmet"

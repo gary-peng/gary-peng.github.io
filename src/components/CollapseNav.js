@@ -12,7 +12,7 @@ export default function CollapseNav() {
     return (
         <Box display={{ base: "block", md: "none" }} p="20px">
             <Flex justifyContent="space-between" alignItems="center">
-                <img class="" src={logo} width="25" height="auto" loading="lazy" />
+                <img src={logo} width="25" height="auto" loading="lazy" />
                 <Button 
                     color="white"
                     onClick={() => setOpen(!open)}

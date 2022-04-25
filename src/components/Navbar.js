@@ -10,7 +10,7 @@ export default function Navibar() {
     return (
         <Flex h="100vh" justifyContent="center" alignItems="center" position="fixed" display={{ base: "none", md: "flex" }}>
             <Flex h="80%" flexDirection="column" justifyContent="space-between" alignItems="center" ml="30px" px="5px" py="10px" border="1px solid white" borderRadius="7px">
-                <img class="" src={logo} width="22" height="auto" loading="lazy" />
+                <img src={logo} width="22" height="auto" loading="lazy" />
                 <NavLink href="/#projects" text="Projects" vert />
                 <NavLink href={resume} text="Resume" url vert />
                 <NavLink href="https://github.com/gary-peng" text="Github" url vert />
