@@ -1,4 +1,4 @@
-name: Gatsby Publish
+name: Deploy App
 
 on:
   push:
@@ -12,8 +12,21 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
 
-      - name: Gh Pages
-        uses: enriikke/gatsby-gh-pages-action@v2
+      - name: Install Node.js
+        uses: actions/setup-node@v3
         with:
-          access-token: x-access-token:${{ secrets.GITHUB_TOKEN }}
-          deploy-branch: gh-pages
+          node-version: 16
+        
+      - name: Install packages
+        run: yarn install
+      
+      - name: Build project
+        run: yarn build
+        env:
+          CI: false
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
