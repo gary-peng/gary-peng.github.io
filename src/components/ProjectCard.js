@@ -9,7 +9,7 @@ export default function ProjectCard(props) {
             flexDirection="column" width={{ base: "80vw", md: "20vw" }} 
             border="1px solid white" borderRadius="7px" 
             m="15px" p="15px" overflowY="auto"
-            transition="transform .2s" _hover={{ transform: "scale(1.05)" }}
+            transition="transform .2s" _hover={{ base: {}, md: {transform: "scale(1.05)"} }}
         >
             <Image objectFit="contain" borderRadius="7px" mb="20px" src={props.project.img} />
             <Heading fontWeight="normal" textDecoration="underline" size="md" mb="10px">{props.project.name}</Heading>
