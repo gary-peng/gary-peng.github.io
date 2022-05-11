@@ -10,7 +10,7 @@ import Header from "../components/Header";
 import ProjectList from "../components/ProjectList";
 import Footer from "../components/Footer";
 
-import Fonts from "../styles/fonts";
+// import Fonts from "../styles/fonts";
 import theme from "../styles/theme";
 
 const IndexPage = () => {
