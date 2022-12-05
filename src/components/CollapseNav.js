@@ -17,8 +17,6 @@ export default function CollapseNav() {
                     color="white"
                     onClick={() => setOpen(!open)}
                     bg="transparent"
-                    border="1px solid white"
-                    borderRadius="7px"
                     _hover={{}}
                     _focus={{ outline: "none" }}
                     _active={{}}><HamburgerIcon w="25px" h="auto" /></Button>

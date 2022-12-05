@@ -7,7 +7,7 @@ export default function Footer() {
     const [glitchRef, glitchVal] = useGlitch("\u00A9 Gary Peng 2020");
 
     return (
-        <Box mt="40px">
+        <Box mt="40px" borderTop="1px solid white" >
             <Text align='center' ref={glitchRef}>{glitchVal}</Text>
         </Box>
     )
