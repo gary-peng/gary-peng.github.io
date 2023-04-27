@@ -3,7 +3,6 @@ import { Collapse, Button, Box, Flex } from '@chakra-ui/react';
 import { HamburgerIcon } from '@chakra-ui/icons';
 
 import logo from "../assets/logo-white.png";
-import resume from "../assets/Gary_Peng_Resume.pdf";
 import NavLink from './NavLink';
 
 export default function CollapseNav() {
@@ -24,7 +23,6 @@ export default function CollapseNav() {
             <Collapse in={open}>
                 <Flex flexDirection="column" alignItems="end" mt="10px">
                     <NavLink href="/#projects" text="Projects" />
-                    <NavLink href={resume} text="Resume" url />
                     <NavLink href="https://github.com/gary-peng" text="Github" url />
                     <NavLink href="https://www.linkedin.com/in/garyhpeng" text="Linkedin" url />
                     <NavLink href="mailto:gpeng8@gatech.edu" text="Email" />

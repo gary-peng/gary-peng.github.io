@@ -5,7 +5,7 @@ import useGlitch from '../hooks/useGlitch';
 export default function Header() {
     const [glitchRef1, glitchVal1] = useGlitch("Hi, my name is");
     const [glitchRef2, glitchVal2] = useGlitch("Gary Peng");
-    const [glitchRef3, glitchVal3] = useGlitch("Maker, Computer Science student @ Georgia Tech");
+    const [glitchRef3, glitchVal3] = useGlitch("Graduate student @ Georgia Tech");
 
     return (
         <Flex h="100vh" justifyContent="center" alignItems="center">
