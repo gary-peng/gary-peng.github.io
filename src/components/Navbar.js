@@ -13,7 +13,7 @@ export default function Navibar() {
                 <NavLink href="/#projects" text="Projects" vert />
                 <NavLink href="https://github.com/gary-peng" text="Github" url vert />
                 <NavLink href="https://www.linkedin.com/in/garyhpeng" text="Linkedin" url vert />
-                <NavLink href="mailto:gpeng8@gatech.edu" text="Email" vert />
+                <NavLink href="mailto:garyleepeng@gmail.com" text="Email" vert />
             </Flex>
         </Flex>
     )

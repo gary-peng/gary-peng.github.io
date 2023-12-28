@@ -25,7 +25,7 @@ export default function CollapseNav() {
                     <NavLink href="/#projects" text="Projects" />
                     <NavLink href="https://github.com/gary-peng" text="Github" url />
                     <NavLink href="https://www.linkedin.com/in/garyhpeng" text="Linkedin" url />
-                    <NavLink href="mailto:gpeng8@gatech.edu" text="Email" />
+                    <NavLink href="mailto:garyleepeng@gmail.com" text="Email" />
                 </Flex>
             </Collapse>
         </Box>
