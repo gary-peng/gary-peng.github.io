@@ -10,7 +10,7 @@ export default function MainView() {
         <Flex h="100vh" w="100vw" flexDir="column" justifyContent="space-between" alignItems="start">
             <Flex h="50%" w="100%" justifyContent="space-between" alignItems="start" p="20px">
                 <img src={logo} width="20pt" height="auto" loading="lazy" />
-                <GlitchText>&#169; Gary Peng 2024</GlitchText>
+                <GlitchText>&#169; gary peng 2024</GlitchText>
             </Flex>
             <Flex h="50%" w="100%" justifyContent="space-between" alignItems="end" alignContent="flex-end" p="20px" wrap="wrap">
                 <Box>
@@ -20,7 +20,7 @@ export default function MainView() {
                     <GlitchText>+ interested large-scale distributed systems and data infrastructures</GlitchText>
                     <GlitchText>+ also likes clothes and rock climbing</GlitchText>
                 </Box>
-                <Text pt="5%" fontSize="10pt"><GlitchLink href="https://www.linkedin.com/in/garyhpeng" url>linkedin</GlitchLink> | <GlitchLink href="https://github.com/gary-peng" url>Github</GlitchLink></Text>
+                <Text pt="5%" fontSize="10pt"><GlitchLink href="https://www.linkedin.com/in/garyhpeng" url>linkedin</GlitchLink> | <GlitchLink href="https://github.com/gary-peng" url>github</GlitchLink></Text>
             </Flex>
         </Flex>
 
