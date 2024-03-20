@@ -51,6 +51,21 @@ export default function useGlitch(text) {
             setActive(false);
             setValue(text);
         }, 1000) 
+
+        let intervalId;
+        intervalId = setInterval(() => {
+            let on = Math.floor(Math.random() * 2)
+            if (on == 1) {
+                setActive(true);
+
+                setTimeout(() => {
+                    setActive(false);
+                    setValue(text);
+                }, 1000)
+            }
+        }, 5000)
+
+        return () => clearInterval(intervalId);
     }, []);
 
     return [ref, value];

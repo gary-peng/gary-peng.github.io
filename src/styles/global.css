@@ -1,20 +1,13 @@
 @font-face {
-	font-family: SpaceMono;
+	font-family: Menlo;
     font-style: normal;
     font-weight: normal;
-	src: url("./fonts/Space_Mono/SpaceMono-Regular.ttf")
-}
-
-@font-face {
-	font-family: SpaceMono;
-    font-style: normal;
-    font-weight: bold;
-	src: url("./fonts/Space_Mono/SpaceMono-Bold.ttf")
+	src: url("./fonts/Menlo-Regular.ttf")
 }
 
 html, body, #___gatsby, #gatsby-focus-wrapper, #index, div[role="group"][tabindex] {
-    background-color: #1e2124;
+    background-color: black;
     color: white;
-    font-family: SpaceMono, monospace;
+    font-family: Menlo, monospace;
     scroll-behavior: smooth;
 }
